@@ -82,6 +82,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             dialog.show();
         } else {
             Toast.makeText(this, "can not connect to play services", Toast.LENGTH_LONG).show();
+            //changes
+
         }
         return false;
     }
